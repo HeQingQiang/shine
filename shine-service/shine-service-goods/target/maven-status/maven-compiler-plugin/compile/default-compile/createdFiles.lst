@@ -1,0 +1,5 @@
+com\shine\goods\dao\BrandMapper.class
+com\shine\goods\service\BrandService.class
+com\shine\goods\service\impl\BrandServiceImpl.class
+com\shine\goods\controller\BrandController.class
+com\shine\goods\GoodsApplication.class

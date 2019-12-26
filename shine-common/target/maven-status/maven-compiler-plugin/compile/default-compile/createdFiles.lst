@@ -1,0 +1,12 @@
+com\shine\entity\ChineseUtils.class
+com\shine\entity\RandomValueUtil.class
+com\shine\entity\HttpClient$1.class
+com\shine\entity\PageResult.class
+com\shine\entity\Result.class
+com\shine\entity\BCrypt.class
+com\shine\entity\StatusCode.class
+com\shine\entity\Message.class
+com\shine\entity\Page.class
+com\shine\entity\CacheKey.class
+com\shine\entity\HttpClient.class
+com\shine\entity\IdWorker.class

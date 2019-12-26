@@ -1,0 +1,12 @@
+com\shine\goods\pojo\Album.class
+com\shine\goods\pojo\Brand.class
+com\shine\goods\pojo\CategoryBrand.class
+com\shine\goods\pojo\Spec.class
+com\shine\goods\pojo\Sku.class
+com\shine\goods\pojo\Spu.class
+com\shine\goods\pojo\Pref.class
+com\shine\goods\pojo\StockBack.class
+com\shine\goods\pojo\Para.class
+com\shine\goods\pojo\Template.class
+com\shine\goods\pojo\Goods.class
+com\shine\goods\pojo\Category.class

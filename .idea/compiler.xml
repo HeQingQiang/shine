@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shine-common" />
+        <module name="shine-center" />
+        <module name="shine-service-goods-api" />
+        <module name="shine-service-goods" />
+        <module name="shine-common-db" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shine" options="-parameters" />
+      <module name="shine-center" options="-parameters" />
+      <module name="shine-common" options="-parameters" />
+      <module name="shine-common-db" options="-parameters" />
+      <module name="shine-gateway" options="" />
+      <module name="shine-service" options="" />
+      <module name="shine-service-api" options="" />
+      <module name="shine-service-goods" options="-parameters" />
+      <module name="shine-service-goods-api" options="-parameters" />
+      <module name="shine-web" options="" />
+    </option>
+  </component>
+</project>

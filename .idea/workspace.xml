@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41704819-bee2-4adf-aeec-871c52a73b9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/src/main/java/com/shine/CenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/target/classes/com/shine/CenterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-center/target/shine-center-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common-db/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common-db/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common-db/target/shine-common-db-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/BCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/CacheKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/ChineseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/FTPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/RandomValueUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/src/main/java/com/shine/common/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/META-INF/shine-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/BCrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/CacheKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/ChineseUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$AlipayCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$OrderStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$PayPlatformEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$PayStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$PaymentTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$ProductListOrderBy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$ProductStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const$StatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/FTPUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/HttpClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/HttpClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/RandomValueUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/ResponseCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/ServerResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/classes/com/shine/common/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-common/target/shine-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/CategoryBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Para.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Pref.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Spec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Spu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/StockBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/CategoryBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Para.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Pref.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Sku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Spec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Spu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/StockBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/classes/com/shine/goods/pojo/Template.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/target/shine-service-goods-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/src/main/java/com/shine/goods/GoodsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/src/main/java/com/shine/goods/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/src/main/java/com/shine/goods/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/src/main/java/com/shine/goods/dao/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/src/main/java/com/shine/goods/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/src/main/java/com/shine/goods/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/classes/META-INF/shine-service-goods.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/classes/com/shine/goods/GoodsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/classes/com/shine/goods/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/classes/com/shine/goods/controller/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/classes/com/shine/goods/dao/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/classes/com/shine/goods/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/classes/com/shine/goods/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-service/shine-service-goods/target/shine-service-goods-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shine-web/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@47.103.124.88" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@47.103.124.88" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@47.103.124.88" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shine_goods: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VQlyoTmqczxHsfARjdoviM2mSf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shine-service-api/shine-service-goods-api/src/main/java/com/shine/goods/pojo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\git\rember\.idea" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.shine.goods.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shine.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\git\shine\shine-service-api\shine-service-goods-api\src\main\java\com\shine\goods\pojo" />
+      <recent name="E:\workspace\git\shine\shine-service-api\src\main\java\com\shine\goods\pojo" />
+      <recent name="E:\workspace\git\shine\shine-common\src\main\java\com\shine\entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GoodsApplication">
+    <configuration name="CenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shine-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shine.CenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shine-service-goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shine.goods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shine.goods.GoodsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CenterApplication" />
+      <item itemvalue="Spring Boot.GoodsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="Spring Boot.CenterApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@47.103.124.88" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@47.103.124.88" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@488f64" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41704819-bee2-4adf-aeec-871c52a73b9c" name="Default Changelist" comment="" />
+      <created>1577193456770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577193456770</updated>
+      <workItem from="1577193459060" duration="1490000" />
+      <workItem from="1577195371461" duration="6415000" />
+      <workItem from="1577274408496" duration="9854000" />
+      <workItem from="1577370347845" duration="7241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1512" y="362" width="816" height="730" key="#Intentions" timestamp="1577292230134">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="362" width="816" height="730" key="#Intentions/0.0.2560.1400@0.0.2560.1400" timestamp="1577292230134" />
+    <state x="1512" y="362" key="#Project_Structure" timestamp="1577280620920">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="362" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1577280620920" />
+    <state x="1374" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577371942691">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1374" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577371942691" />
+    <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser" timestamp="1577376164867">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1725" y="413" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1577376164867" />
+    <state x="1650" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577293123726">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1650" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577293123726" />
+    <state width="1234" height="493" key="GridCell.Tab.0.bottom" timestamp="1577378152598">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152598" />
+    <state width="1234" height="493" key="GridCell.Tab.0.center" timestamp="1577378152598">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152598" />
+    <state width="1234" height="493" key="GridCell.Tab.0.left" timestamp="1577378152598">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152598" />
+    <state width="1234" height="493" key="GridCell.Tab.0.right" timestamp="1577378152598">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152598" />
+    <state width="1234" height="493" key="GridCell.Tab.1.bottom" timestamp="1577378152407">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152407" />
+    <state width="1234" height="493" key="GridCell.Tab.1.center" timestamp="1577378152407">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152407" />
+    <state width="1234" height="493" key="GridCell.Tab.1.left" timestamp="1577378152406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152406" />
+    <state width="1234" height="493" key="GridCell.Tab.1.right" timestamp="1577378152407">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152407" />
+    <state width="1234" height="493" key="GridCell.Tab.2.bottom" timestamp="1577378152407">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152407" />
+    <state width="1234" height="493" key="GridCell.Tab.2.center" timestamp="1577378152407">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152407" />
+    <state width="1234" height="493" key="GridCell.Tab.2.left" timestamp="1577378152407">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152407" />
+    <state width="1234" height="493" key="GridCell.Tab.2.right" timestamp="1577378152407">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="493" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577378152407" />
+    <state x="1400" y="278" key="SettingsEditor" timestamp="1577292987246">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1400" y="278" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1577292987246" />
+    <state x="1636" y="423" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1577279124014">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1636" y="423" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577279124014" />
+    <state x="1776" y="591" width="539" height="217" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1577276415673">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1776" y="591" width="539" height="217" key="com.intellij.database.view.ui.DbObjectDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577276415673" />
+    <state x="1527" y="403" width="786" height="600" key="find.popup" timestamp="1577280739672">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1527" y="403" width="786" height="600" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1577280739672" />
+    <state x="945" y="432" key="new project wizard" timestamp="1577196191631">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="945" y="432" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1577196191631" />
+  </component>
+</project>
