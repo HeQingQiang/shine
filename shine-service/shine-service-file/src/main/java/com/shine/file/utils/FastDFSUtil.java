@@ -53,8 +53,8 @@ public class FastDFSUtil {
         StorageClient storageClient = new StorageClient(trackerServer, null);
         //通过StorageClient访问Storage，实现文件上传，并获取文件上传后的存储信息
         //参数：1上传文件的字节数组2文件的扩展名3附加参数  返回值：1文件上传storage的组名字2文件存储的文件名
-        String[] results = storageClient.upload_file(file.getContent(), file.getExt(), meta_list);
-        return results;
+        return storageClient.upload_file(file.getContent(), file.getExt(), meta_list);
     }
 
 }
+

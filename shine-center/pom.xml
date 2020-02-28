@@ -12,7 +12,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.shine</groupId>
     <artifactId>shine-center</artifactId>
 
     <dependencies>

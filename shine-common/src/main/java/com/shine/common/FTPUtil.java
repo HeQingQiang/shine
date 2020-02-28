@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * FTP工具类.
  *
- * @author shineYu
+ * @author shine
  * @Date 2019/5/28 16:08
  */
 @Data

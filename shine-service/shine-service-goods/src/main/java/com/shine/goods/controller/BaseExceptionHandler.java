@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /***********
  *@Author: Shine
- *@Description:
+ *@Description: 全局异常捕获
  *@Data: Created in 2019/12/27 0:26
  *@Modified By:
  *****/

@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * 公共常量.
  *
- * @author shineYu
+ * @author shine
  * @Date 2019/5/25 15:26
  */
 public class Const {

@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
 
     <description>商城父工程</description>
+
     <modules>
         <module>shine-common</module>
         <module>shine-common-db</module>
@@ -60,9 +61,6 @@
             <version>2.6.1</version>
         </dependency>
 
-        <!--
-            http://localhost:9011/swagger-ui.html
-        -->
     </dependencies>
 
     <dependencyManagement>

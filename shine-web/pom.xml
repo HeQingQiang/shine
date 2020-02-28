@@ -12,7 +12,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.shine</groupId>
     <packaging>pom</packaging>
     <artifactId>shine-web</artifactId>
 

@@ -30,7 +30,6 @@ public class FileController {
                 file.getOriginalFilename(),
                 file.getBytes(),
                 StringUtils.getFilenameExtension(file.getOriginalFilename())
-
         );
         //调用FastDFSUtil工具类将文件传入FastDFS中
         String[] result = FastDFSUtil.upload(fastDFSFile);

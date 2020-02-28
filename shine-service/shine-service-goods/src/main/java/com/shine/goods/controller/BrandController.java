@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
 /***********
  *@Author: Shine
  *@Description: 品牌控制器
@@ -42,6 +41,8 @@ public class BrandController {
      */
     @GetMapping(value = "/{id}")
     public ServerResponse<Brand> getBrandById(@PathVariable(value = "id") Integer id) {
+        int a = 10 / 0;
+        System.out.println(a);
         return ServerResponse.success("查询品牌成功！", brandService.findById(id));
     }
 
@@ -119,6 +120,8 @@ public class BrandController {
     public ServerResponse<PageInfo<Brand>> findPage(@PathVariable(value = "page") Integer page,
                                                     @PathVariable(value = "size") Integer size,
                                                     @RequestBody Brand brand) {
+
+        int a = 10 / 0;
         PageInfo<Brand> pageInfo = brandService.findPage(brand, page, size);
         return ServerResponse.success("分页查询成功！", pageInfo);
     }
