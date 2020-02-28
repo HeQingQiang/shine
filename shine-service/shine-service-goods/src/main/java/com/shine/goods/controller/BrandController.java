@@ -4,6 +4,8 @@ import com.github.pagehelper.PageInfo;
 import com.shine.common.ServerResponse;
 import com.shine.goods.pojo.Brand;
 import com.shine.goods.service.BrandService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +18,7 @@ import java.util.List;
  *@Modified By:
  *****/
 @RestController
+@Api(tags = "品牌入口")
 @RequestMapping(value = "/brand")
 @CrossOrigin   //跨域：A域名访问B域名的数据，存在跨域（域名或者请求端口或者协议不一致）
 public class BrandController {
@@ -29,6 +32,7 @@ public class BrandController {
      * @return
      */
     @GetMapping
+    @ApiOperation("获取所有")
     public ServerResponse getAllBrand() {
         return ServerResponse.success("查询全部品牌成功！", brandService.findAll());
     }
@@ -40,9 +44,8 @@ public class BrandController {
      * @return 品牌
      */
     @GetMapping(value = "/{id}")
+    @ApiOperation("查询品牌")
     public ServerResponse<Brand> getBrandById(@PathVariable(value = "id") Integer id) {
-        int a = 10 / 0;
-        System.out.println(a);
         return ServerResponse.success("查询品牌成功！", brandService.findById(id));
     }
 
@@ -53,6 +56,7 @@ public class BrandController {
      * @return ServerResponse
      */
     @PostMapping
+    @ApiOperation("添加品牌")
     public ServerResponse add(@RequestBody Brand brand) {
         brandService.add(brand);
         return ServerResponse.successMessage("创建品牌" + brand.getName() + "成功!");
@@ -65,6 +69,7 @@ public class BrandController {
      * @return ServerResponse
      */
     @PutMapping(value = "/{id}")
+    @ApiOperation("修改品牌")
     public ServerResponse update(@RequestBody Brand brand, @PathVariable(value = "id") Integer id) {
         brand.setId(id);
         brandService.update(brand);
@@ -78,6 +83,7 @@ public class BrandController {
      * @return ServerResponse
      */
     @DeleteMapping(value = "/{id}")
+    @ApiOperation("删除品牌")
     public ServerResponse delete(@PathVariable(value = "id") Integer id) {
         brandService.delete(id);
         return ServerResponse.successMessage("删除品牌成功!");
@@ -90,18 +96,20 @@ public class BrandController {
      * @return 结果
      */
     @PostMapping("/search")
+    @ApiOperation("条件查询")
     public ServerResponse findList(@RequestBody Brand brand) {
         List<Brand> brands = brandService.findByList(brand);
         return ServerResponse.success("条件搜索查询品牌成功！", brands);
     }
 
     /**
-     * 分页查询
+     * 分页查询.
      *
      * @param page 当前页
      * @param size 每页数量
      * @return 结果
      */
+    @ApiOperation("分页查询")
     @GetMapping("/search/{page}/{size}")
     public ServerResponse<PageInfo<Brand>> findPage(@PathVariable(value = "page") Integer page,
                                                     @PathVariable(value = "size") Integer size) {
@@ -117,11 +125,10 @@ public class BrandController {
      * @return 结果
      */
     @PostMapping("/search/{page}/{size}")
+    @ApiOperation("分页查询")
     public ServerResponse<PageInfo<Brand>> findPage(@PathVariable(value = "page") Integer page,
                                                     @PathVariable(value = "size") Integer size,
                                                     @RequestBody Brand brand) {
-
-        int a = 10 / 0;
         PageInfo<Brand> pageInfo = brandService.findPage(brand, page, size);
         return ServerResponse.success("分页查询成功！", pageInfo);
     }
