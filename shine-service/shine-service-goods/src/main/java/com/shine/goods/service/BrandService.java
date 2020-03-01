@@ -5,66 +5,67 @@ import com.shine.goods.pojo.Brand;
 
 import java.util.List;
 
-/***********
- *@Author: Shine
- *@Description:
- *@Data: Created in 2019/12/25 20:27
- *@Modified By:
+/**
+ * @Description:Brand的Dao
+ * ----------------------------
+ * @Author:shine
+ * @Date 2020/02/29 0:12
+ * ----------------------------
  *****/
 public interface BrandService {
 
-    /**
-     * 查询所有品牌。
-     * @return 品牌集合
+    /***
+     * Brand多条件分页查询
+     * @param brand
+     * @param page
+     * @param size
+     * @return
      */
-    List<Brand> findAll();
+    PageInfo<Brand> findPage(Brand brand, int page, int size);
 
-    /**
-     * 根据ID查询.
-     * @param id 品牌ID
-     * @return 品牌
+    /***
+     * Brand分页查询
+     * @param page
+     * @param size
+     * @return
      */
-    Brand findById(Integer id);
+    PageInfo<Brand> findPage(int page, int size);
 
-    /**
-     * 添加品牌.
-     * @param brand 品牌
+    /***
+     * Brand多条件搜索方法
+     * @param brand
+     * @return
+     */
+    List<Brand> findList(Brand brand);
+
+    /***
+     * 删除Brand
+     * @param id
+     */
+    void delete(Integer id);
+
+    /***
+     * 修改Brand数据
+     * @param brand
+     */
+    void update(Brand brand);
+
+    /***
+     * 新增Brand
+     * @param brand
      */
     void add(Brand brand);
 
     /**
-     * 根据ID修改品牌
-     * @param brand 品牌
+     * 根据ID查询Brand
+     * @param id
+     * @return
      */
-    void update(Brand brand);
+     Brand findById(Integer id);
 
-    /**
-     * 根据ID删除品牌
-     * @param id 品牌ID
+    /***
+     * 查询所有Brand
+     * @return
      */
-    void delete(Integer id);
-
-    /**
-     * 多条件查找品牌
-     * @param brand 品牌
-     * @return 结果
-     */
-    List<Brand> findByList(Brand brand);
-
-    /**
-     * 分页
-     * @param page 当前页
-     * @param size 每页显示多少
-     * @return 结果
-     */
-    PageInfo<Brand> findPage(Integer page,Integer size);
-
-    /**
-     * 条件分页
-     * @param brand 品牌
-     * @param page 当前页
-     * @param size 每页显示多少
-     * @return 结果
-     */
-    PageInfo<Brand> findPage(Brand brand,Integer page,Integer size);
+    List<Brand> findAll();
 }

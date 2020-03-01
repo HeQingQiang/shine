@@ -74,12 +74,12 @@ public class LogAspect {
     @Around("webLog()")
     public Object doAround(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         long startTime = System.currentTimeMillis();
-        Object result = proceedingJoinPoint.proceed();
+        Object ServerResponse = proceedingJoinPoint.proceed();
         // 打印出参
-        logger.info("返回参数: {}", new Gson().toJson(result));
+        logger.info("返回参数: {}", new Gson().toJson(ServerResponse));
         // 执行耗时
         logger.info("总共耗时: {} ms", System.currentTimeMillis() - startTime);
-        return result;
+        return ServerResponse;
     }
 
 }

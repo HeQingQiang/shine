@@ -4,7 +4,6 @@ import com.shine.common.ServerResponse;
 import com.shine.file.entity.FastDFSFile;
 import com.shine.file.utils.FastDFSUtil;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -30,6 +29,7 @@ public class FileController {
                 file.getOriginalFilename(),
                 file.getBytes(),
                 StringUtils.getFilenameExtension(file.getOriginalFilename())
+
         );
         //调用FastDFSUtil工具类将文件传入FastDFS中
         String[] result = FastDFSUtil.upload(fastDFSFile);

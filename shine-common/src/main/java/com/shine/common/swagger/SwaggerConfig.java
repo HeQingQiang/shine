@@ -1,4 +1,4 @@
-package com.shine.common.swagger;
+package entity.Swagger;
 
 
 import com.google.common.base.Predicates;

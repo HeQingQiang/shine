@@ -2,16 +2,20 @@ package com.shine.goods.pojo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
-/****
- * @Author:    Shine
- * @Description:Brand构建
- * @Date 2019-12-25 19:13
+/**
+ * @Description:Brand的Dao
+ * ----------------------------
+ * @Author:shine
+ * @Date 2020/02/29 0:12
+ * ----------------------------
  *****/
 @ApiModel(description = "Brand",value = "Brand")
+@Data
 @Table(name="tb_brand")
 public class Brand implements Serializable{
 
@@ -32,53 +36,5 @@ public class Brand implements Serializable{
 	@ApiModelProperty(value = "排序",required = false)
     @Column(name = "seq")
 	private Integer seq;//排序
-
-
-	//get方法
-	public Integer getId() {
-		return id;
-	}
-
-	//set方法
-	public void setId(Integer id) {
-		this.id = id;
-	}
-	//get方法
-	public String getName() {
-		return name;
-	}
-
-	//set方法
-	public void setName(String name) {
-		this.name = name;
-	}
-	//get方法
-	public String getImage() {
-		return image;
-	}
-
-	//set方法
-	public void setImage(String image) {
-		this.image = image;
-	}
-	//get方法
-	public String getLetter() {
-		return letter;
-	}
-
-	//set方法
-	public void setLetter(String letter) {
-		this.letter = letter;
-	}
-	//get方法
-	public Integer getSeq() {
-		return seq;
-	}
-
-	//set方法
-	public void setSeq(Integer seq) {
-		this.seq = seq;
-	}
-
 
 }

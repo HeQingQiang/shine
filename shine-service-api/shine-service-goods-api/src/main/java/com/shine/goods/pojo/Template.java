@@ -2,16 +2,20 @@ package com.shine.goods.pojo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
-/****
- * @Author:    Shine
- * @Description:Template构建
- * @Date 2019-12-25 19:13
+/**
+ * @Description:Template的Dao
+ * ----------------------------
+ * @Author:shine
+ * @Date 2020/02/29 0:12
+ * ----------------------------
  *****/
 @ApiModel(description = "Template",value = "Template")
+@Data
 @Table(name="tb_template")
 public class Template implements Serializable{
 
@@ -29,44 +33,5 @@ public class Template implements Serializable{
 	@ApiModelProperty(value = "参数数量",required = false)
     @Column(name = "para_num")
 	private Integer paraNum;//参数数量
-
-
-	//get方法
-	public Integer getId() {
-		return id;
-	}
-
-	//set方法
-	public void setId(Integer id) {
-		this.id = id;
-	}
-	//get方法
-	public String getName() {
-		return name;
-	}
-
-	//set方法
-	public void setName(String name) {
-		this.name = name;
-	}
-	//get方法
-	public Integer getSpecNum() {
-		return specNum;
-	}
-
-	//set方法
-	public void setSpecNum(Integer specNum) {
-		this.specNum = specNum;
-	}
-	//get方法
-	public Integer getParaNum() {
-		return paraNum;
-	}
-
-	//set方法
-	public void setParaNum(Integer paraNum) {
-		this.paraNum = paraNum;
-	}
-
 
 }

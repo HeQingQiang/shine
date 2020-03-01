@@ -2,18 +2,22 @@ package com.shine.goods.pojo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
-/****
- * @Author:    Shine
- * @Description:CategoryBrand构建
- * @Date 2019-12-25 19:13
+/**
+ * @Description:CategoryBrand的Dao
+ * ----------------------------
+ * @Author:shine
+ * @Date 2020/02/29 0:12
+ * ----------------------------
  *****/
 @ApiModel(description = "CategoryBrand",value = "CategoryBrand")
+@Data
 @Table(name="tb_category_brand")
 public class CategoryBrand implements Serializable{
 
@@ -22,29 +26,7 @@ public class CategoryBrand implements Serializable{
     @Column(name = "category_id")
 	private Integer categoryId;//分类ID
 	@ApiModelProperty(value = "品牌ID",required = false)
-	@Id
-	@Column(name = "brand_id")
+    @Column(name = "brand_id")
 	private Integer brandId;//品牌ID
-
-
-	//get方法
-	public Integer getCategoryId() {
-		return categoryId;
-	}
-
-	//set方法
-	public void setCategoryId(Integer categoryId) {
-		this.categoryId = categoryId;
-	}
-	//get方法
-	public Integer getBrandId() {
-		return brandId;
-	}
-
-	//set方法
-	public void setBrandId(Integer brandId) {
-		this.brandId = brandId;
-	}
-
 
 }

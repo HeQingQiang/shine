@@ -2,16 +2,20 @@ package com.shine.goods.pojo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
-/****
- * @Author:    Shine
- * @Description:Album构建
- * @Date 2019-12-25 19:13
+/**
+ * @Description:Album的Dao
+ * ----------------------------
+ * @Author:shine
+ * @Date 2020/02/29 0:12
+ * ----------------------------
  *****/
 @ApiModel(description = "Album",value = "Album")
+@Data
 @Table(name="tb_album")
 public class Album implements Serializable{
 
@@ -29,44 +33,5 @@ public class Album implements Serializable{
 	@ApiModelProperty(value = "图片列表",required = false)
     @Column(name = "image_items")
 	private String imageItems;//图片列表
-
-
-	//get方法
-	public Long getId() {
-		return id;
-	}
-
-	//set方法
-	public void setId(Long id) {
-		this.id = id;
-	}
-	//get方法
-	public String getTitle() {
-		return title;
-	}
-
-	//set方法
-	public void setTitle(String title) {
-		this.title = title;
-	}
-	//get方法
-	public String getImage() {
-		return image;
-	}
-
-	//set方法
-	public void setImage(String image) {
-		this.image = image;
-	}
-	//get方法
-	public String getImageItems() {
-		return imageItems;
-	}
-
-	//set方法
-	public void setImageItems(String imageItems) {
-		this.imageItems = imageItems;
-	}
-
 
 }

@@ -2,24 +2,28 @@ package com.shine.goods.pojo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
-/****
- * @Author:    Shine
- * @Description:Spu构建
- * @Date 2019-12-25 19:13
+/**
+ * @Description:Spu的Dao
+ * ----------------------------
+ * @Author:shine
+ * @Date 2020/02/29 0:12
+ * ----------------------------
  *****/
 @ApiModel(description = "Spu",value = "Spu")
+@Data
 @Table(name="tb_spu")
 public class Spu implements Serializable{
 
 	@ApiModelProperty(value = "主键",required = false)
 	@Id
-	@Column(name = "id")
+    @Column(name = "id")
 	private Long id;//主键
 	@ApiModelProperty(value = "货号",required = false)
     @Column(name = "sn")
@@ -72,218 +76,17 @@ public class Spu implements Serializable{
 	@ApiModelProperty(value = "评论数",required = false)
     @Column(name = "comment_num")
 	private Integer commentNum;//评论数
-	@ApiModelProperty(value = "是否上架",required = false)
+	@ApiModelProperty(value = "是否上架,0已下架，1已上架",required = false)
     @Column(name = "is_marketable")
-	private String isMarketable;//是否上架
+	private String isMarketable;//是否上架,0已下架，1已上架
 	@ApiModelProperty(value = "是否启用规格",required = false)
     @Column(name = "is_enable_spec")
 	private String isEnableSpec;//是否启用规格
-	@ApiModelProperty(value = "是否删除",required = false)
+	@ApiModelProperty(value = "是否删除,0:未删除，1：已删除",required = false)
     @Column(name = "is_delete")
-	private String isDelete;//是否删除
-	@ApiModelProperty(value = "审核状态",required = false)
+	private String isDelete;//是否删除,0:未删除，1：已删除
+	@ApiModelProperty(value = "审核状态，0：未审核，1：已审核，2：审核不通过",required = false)
     @Column(name = "status")
-	private String status;//审核状态
-
-
-	//get方法
-	public Long getId() {
-		return id;
-	}
-
-	//set方法
-	public void setId(Long id) {
-		this.id = id;
-	}
-	//get方法
-	public String getSn() {
-		return sn;
-	}
-
-	//set方法
-	public void setSn(String sn) {
-		this.sn = sn;
-	}
-	//get方法
-	public String getName() {
-		return name;
-	}
-
-	//set方法
-	public void setName(String name) {
-		this.name = name;
-	}
-	//get方法
-	public String getCaption() {
-		return caption;
-	}
-
-	//set方法
-	public void setCaption(String caption) {
-		this.caption = caption;
-	}
-	//get方法
-	public Integer getBrandId() {
-		return brandId;
-	}
-
-	//set方法
-	public void setBrandId(Integer brandId) {
-		this.brandId = brandId;
-	}
-	//get方法
-	public Integer getCategory1Id() {
-		return category1Id;
-	}
-
-	//set方法
-	public void setCategory1Id(Integer category1Id) {
-		this.category1Id = category1Id;
-	}
-	//get方法
-	public Integer getCategory2Id() {
-		return category2Id;
-	}
-
-	//set方法
-	public void setCategory2Id(Integer category2Id) {
-		this.category2Id = category2Id;
-	}
-	//get方法
-	public Integer getCategory3Id() {
-		return category3Id;
-	}
-
-	//set方法
-	public void setCategory3Id(Integer category3Id) {
-		this.category3Id = category3Id;
-	}
-	//get方法
-	public Integer getTemplateId() {
-		return templateId;
-	}
-
-	//set方法
-	public void setTemplateId(Integer templateId) {
-		this.templateId = templateId;
-	}
-	//get方法
-	public Integer getFreightId() {
-		return freightId;
-	}
-
-	//set方法
-	public void setFreightId(Integer freightId) {
-		this.freightId = freightId;
-	}
-	//get方法
-	public String getImage() {
-		return image;
-	}
-
-	//set方法
-	public void setImage(String image) {
-		this.image = image;
-	}
-	//get方法
-	public String getImages() {
-		return images;
-	}
-
-	//set方法
-	public void setImages(String images) {
-		this.images = images;
-	}
-	//get方法
-	public String getSaleService() {
-		return saleService;
-	}
-
-	//set方法
-	public void setSaleService(String saleService) {
-		this.saleService = saleService;
-	}
-	//get方法
-	public String getIntroduction() {
-		return introduction;
-	}
-
-	//set方法
-	public void setIntroduction(String introduction) {
-		this.introduction = introduction;
-	}
-	//get方法
-	public String getSpecItems() {
-		return specItems;
-	}
-
-	//set方法
-	public void setSpecItems(String specItems) {
-		this.specItems = specItems;
-	}
-	//get方法
-	public String getParaItems() {
-		return paraItems;
-	}
-
-	//set方法
-	public void setParaItems(String paraItems) {
-		this.paraItems = paraItems;
-	}
-	//get方法
-	public Integer getSaleNum() {
-		return saleNum;
-	}
-
-	//set方法
-	public void setSaleNum(Integer saleNum) {
-		this.saleNum = saleNum;
-	}
-	//get方法
-	public Integer getCommentNum() {
-		return commentNum;
-	}
-
-	//set方法
-	public void setCommentNum(Integer commentNum) {
-		this.commentNum = commentNum;
-	}
-	//get方法
-	public String getIsMarketable() {
-		return isMarketable;
-	}
-
-	//set方法
-	public void setIsMarketable(String isMarketable) {
-		this.isMarketable = isMarketable;
-	}
-	//get方法
-	public String getIsEnableSpec() {
-		return isEnableSpec;
-	}
-
-	//set方法
-	public void setIsEnableSpec(String isEnableSpec) {
-		this.isEnableSpec = isEnableSpec;
-	}
-	//get方法
-	public String getIsDelete() {
-		return isDelete;
-	}
-
-	//set方法
-	public void setIsDelete(String isDelete) {
-		this.isDelete = isDelete;
-	}
-	//get方法
-	public String getStatus() {
-		return status;
-	}
-
-	//set方法
-	public void setStatus(String status) {
-		this.status = status;
-	}
-
+	private String status;//审核状态，0：未审核，1：已审核，2：审核不通过
 
 }
