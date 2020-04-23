@@ -13,7 +13,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  *****/
 @SpringBootApplication
 @EnableEurekaClient//开起Eureka客户端
-@MapperScan(basePackages = {"com.shine.goods.dao"})//开起通用Mapper的包扫描
+@MapperScan(basePackages = {"com.shine.goods..dao"})//开起通用Mapper的包扫描
 public class GoodsApplication {
 
     public static void main(String[] args) {

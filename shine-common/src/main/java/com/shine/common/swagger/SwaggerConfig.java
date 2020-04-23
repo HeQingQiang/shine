@@ -25,7 +25,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
-    com.google.common.base.Predicate<RequestHandler> goods = RequestHandlerSelectors.basePackage("com.shine.goods.controller");
+    com.google.common.base.Predicate<RequestHandler> goods = RequestHandlerSelectors.basePackage("com.shine.goods..controller");
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
